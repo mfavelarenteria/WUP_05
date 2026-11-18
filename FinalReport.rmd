@@ -1,7 +1,7 @@
 ---
 title: "Aides Drug"
-author: "Put your name here!"
-date: "put the date here"
+author: "Marisol Favela Renteria!"
+date: "11/17/26"
 output: html_document
 ---
 
@@ -17,9 +17,18 @@ triUmp <-read.csv(file="triUmpsal.csv",header=TRUE)
 
 A new  preventative aides drug (triUmpsal) is under test in clinical trials. Consider only the females, does this drug seem effective?  Hint - use dplyr to obtain that subpopulation with the filter command.
 
+We are trying to conclude if a new preventative aides drug (triUmpsal) is affective amongst females. In order to measure the effectiveness were are going to be comparing a subset sample of 11,768 females that was oriignqll talen from a larger sample of about 21,743 participants in the data set triUmp. 
+$H_0$- The triUmp was not effective towards female participants. There was no effect when using the medication 
+$H_A$ - triUmp was effective towards female participants, the medication was able to prevent aides
+
+
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
+
+In our research we have two categorical variables. 
+The patients that recieved the treatmeant (triUmpsal) or not is a categorical variable. 
+The HIV status of the patients after receiving treatment (triUmpsal) is also a categorical variable. In order to test the data we have to subset the female population (11,768) from the whole data set of participants taken (21,743), in order to see only females data.
 
 # Results
 
